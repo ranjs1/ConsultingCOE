@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ECRWO</name>
+   <tag></tag>
+   <elementGuidId>6942bf60-0e38-471e-83d7-ce2cbf4994da</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/form/div[3]/div/table/tbody/tr/td/div/div/span/div/span/div[1]/div/span/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/span/div/table/tbody/tr/td/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ECR-06Nov2017-35</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oflowDivM </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/iframe_PegaGadget1Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

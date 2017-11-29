@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find Quote WO</name>
+   <tag></tag>
+   <comment>Advanced Search functionality passed</comment>
+   <testCaseGuid>01b43077-131a-4895-b4cf-c2dbda8d65f7</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>4b71ec87-3998-44dd-aa99-fdf6d3a506ca</id>
+      <masked>false</masked>
+      <name>ListOfFunctions</name>
+   </variable>
+</TestCaseEntity>

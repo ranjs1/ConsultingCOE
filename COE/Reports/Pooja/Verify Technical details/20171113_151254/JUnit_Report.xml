@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="61" tests="1" failures="1" errors="0">
+   <testsuite name="Verify Technical details" tests="1" failures="1" errors="0" time="61" timestamp="2017-11-13 15:12:56" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_151254"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_151254\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_151254\\1510566235914.png"/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="6d5f7461a1f303766005b73d20dabbf2"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="PASSED">
+         <system-out><![CDATA[2017-11-13 15:12:56 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case
+
+2017-11-13 15:12:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-13 15:12:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-13 15:12:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:13:01 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:13:01 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:13:01 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:13:01 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:13:02 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:13:02 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:13:09 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:13:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-13 15:13:10 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-13 15:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:13:11 - [TEST_STEP][PASSED] - setText: Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:13:13 - [MESSAGE][PASSED] - Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:13:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:13:13 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:13:19 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:13:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:13:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 15:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)"/>
+         <system-out><![CDATA[2017-11-13 15:13:20 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)
+
+2017-11-13 15:13:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:13:22 - [MESSAGE][PASSED] - All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:13:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:13:25 - [MESSAGE][PASSED] - All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:13:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:13:27 - [MESSAGE][PASSED] - All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:13:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:13:29 - [MESSAGE][PASSED] - All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:13:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-13 15:13:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-13 15:13:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:13:33 - [MESSAGE][PASSED] - All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:13:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:13:36 - [MESSAGE][PASSED] - All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:13:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:13:38 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:13:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:40 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:13:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:13:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:13:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:13:42 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:13:42 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:13:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:13:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:13:43 - [TEST_STEP][PASSED] - setText: Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:13:44 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:13:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:13:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:13:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:13:47 - [MESSAGE][PASSED] - All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:13:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:13:49 - [MESSAGE][PASSED] - All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:13:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:13:52 - [MESSAGE][PASSED] - All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:13:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:13:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:13:54 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)
+
+2017-11-13 15:13:55 - [MESSAGE][FAILED] - No option matched.
+
+2017-11-13 15:13:56 - [MESSAGE][FAILED] - Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)
+[[ATTACHMENT|C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_151254\\1510566235914.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-13 15:13:20 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-13 15:12:56 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)]]></system-out>
+      <system-err><![CDATA[2017-11-13 15:12:56 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Automated Contract Reasoning' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: No option matched.)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GoLive" time="44" tests="1" failures="0" errors="0">
+   <testsuite name="GoLive" tests="1" failures="0" errors="0" time="44" timestamp="2017-11-27 19:17:51" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/GoLive_Test Suite/GoLive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171127_191749"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171127_191749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="10.150.250.87"/>
+         <property name="sessionId" value="382e6a023f7f5802de623d7fd432e0eb"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Announcement Details" classname="Test Cases/GOLIVE/Enter Announcement Details" status="PASSED">
+         <system-out><![CDATA[2017-11-27 19:17:51 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Announcement Details: Test Cases/GOLIVE/Enter Announcement Details
+
+2017-11-27 19:17:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-27 19:17:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-27 19:17:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-27 19:17:57 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-27 19:17:57 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_UserIdentifier'
+
+2017-11-27 19:17:57 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_UserIdentifier'
+
+2017-11-27 19:17:57 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_Password'
+
+2017-11-27 19:17:58 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_Password'
+
+2017-11-27 19:17:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-27 19:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-27 19:18:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Enter Go Live' is clicked on
+
+2017-11-27 19:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Enter Go Live' is clicked on
+
+2017-11-27 19:18:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'IM-1' sent to object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepImplementat'
+
+2017-11-27 19:18:10 - [MESSAGE][PASSED] - Keys 'IM-1' sent to object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepImplementat'
+
+2017-11-27 19:18:10 - [TEST_STEP][PASSED] - setText: Text 'BOFA' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepPacOrgID'
+
+2017-11-27 19:18:10 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepPacOrgID'
+
+2017-11-27 19:18:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/SelectOrg' is clicked on
+
+2017-11-27 19:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/SelectOrg' is clicked on
+
+2017-11-27 19:18:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-27 19:18:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-27 19:18:14 - [TEST_STEP][PASSED] - setText: Text 'BOFAUK' is set on object 'Object Repository/GOLive_Objects/Account'
+
+2017-11-27 19:18:14 - [MESSAGE][PASSED] - Text 'BOFAUK' is set on object 'Object Repository/GOLive_Objects/Account'
+
+2017-11-27 19:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Select_Acc' is clicked on
+
+2017-11-27 19:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Select_Acc' is clicked on
+
+2017-11-27 19:18:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-27 19:18:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-27 19:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepEngagementI' is clicked on
+
+2017-11-27 19:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepEngagementI' is clicked on
+
+2017-11-27 19:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Engagement' is clicked on
+
+2017-11-27 19:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Engagement' is clicked on
+
+2017-11-27 19:18:17 - [TEST_STEP][PASSED] - setText: Text 'COMMENT' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/textarea_PpyWorkPagepComments'
+
+2017-11-27 19:18:18 - [MESSAGE][PASSED] - Text 'COMMENT' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/textarea_PpyWorkPagepComments'
+
+2017-11-27 19:18:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-27 19:18:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-27 19:18:19 - [TEST_STEP][PASSED] - setText: Text 'Bank Of America' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepAnnouncement'
+
+2017-11-27 19:18:19 - [MESSAGE][PASSED] - Text 'Bank Of America' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepAnnouncement'
+
+2017-11-27 19:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/img_inactvIcon icnHvr' is clicked on
+
+2017-11-27 19:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/img_inactvIcon icnHvr' is clicked on
+
+2017-11-27 19:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/a_14' is clicked on
+
+2017-11-27 19:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/a_14' is clicked on
+
+2017-11-27 19:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsRapidDeliv' is clicked on
+
+2017-11-27 19:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsRapidDeliv' is clicked on
+
+2017-11-27 19:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsCorporateM' is clicked on
+
+2017-11-27 19:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsCorporateM' is clicked on
+
+2017-11-27 19:18:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepMinorRelease' is clicked on
+
+2017-11-27 19:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepMinorRelease' is clicked on
+
+2017-11-27 19:18:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Pega-Led' are selected in object 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepDeliveryMod'  using regular expression
+
+2017-11-27 19:18:21 - [MESSAGE][PASSED] - All options with value 'Pega-Led' are selected in object 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepDeliveryMod'  using regular expression
+
+2017-11-27 19:18:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsCloudImpl' is clicked on
+
+2017-11-27 19:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepIsCloudImpl' is clicked on
+
+2017-11-27 19:18:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepNoAssociated' is clicked on
+
+2017-11-27 19:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepNoAssociated' is clicked on
+
+2017-11-27 19:18:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Page_AIAManager/div_Next' successfully
+
+2017-11-27 19:18:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Page_AIAManager/div_Next' successfully
+
+2017-11-27 19:18:22 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-27 19:18:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-27 19:18:32 - [TEST_STEP][PASSED] - check: Object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepNoAssociated' is checked
+
+2017-11-27 19:18:32 - [MESSAGE][PASSED] - Object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepNoAssociated' is checked
+
+2017-11-27 19:18:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Next' is clicked on
+
+2017-11-27 19:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Next' is clicked on
+
+2017-11-27 19:18:32 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Page_AIAManager/Save_Button' successfully
+
+2017-11-27 19:18:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Page_AIAManager/Save_Button' successfully
+
+2017-11-27 19:18:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/Save_Button' is clicked on
+
+2017-11-27 19:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/Save_Button' is clicked on
+
+2017-11-27 19:18:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/Close_theWO' is clicked on
+
+2017-11-27 19:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/Close_theWO' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-27 19:17:51 - [TEST_SUITE][PASSED] - GoLive: Test Cases/GOLIVE/Enter Announcement Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="82" tests="3" failures="0" errors="0">
+   <testsuite name="Verify Technical details" tests="3" failures="0" errors="0" time="82" timestamp="2017-11-13 15:56:06" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_155604"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_155604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="218fb8e848eb3ad9defc6428f05c6883"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="PASSED">
+         <system-out><![CDATA[2017-11-13 15:56:06 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case
+
+2017-11-13 15:56:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-13 15:56:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-13 15:56:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:56:11 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:56:11 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:56:12 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:56:12 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:56:12 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:56:12 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:56:18 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:56:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-13 15:56:20 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-13 15:56:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:56:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:56:21 - [TEST_STEP][PASSED] - setText: Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:56:22 - [MESSAGE][PASSED] - Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:56:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:56:22 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:56:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:56:27 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:56:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:56:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 15:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="PASSED">
+         <system-out><![CDATA[2017-11-13 15:56:28 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details
+
+2017-11-13 15:56:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:56:30 - [MESSAGE][PASSED] - All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:56:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:56:32 - [MESSAGE][PASSED] - All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:56:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:56:34 - [MESSAGE][PASSED] - All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:56:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:56:37 - [MESSAGE][PASSED] - All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:56:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-13 15:56:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-13 15:56:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:56:40 - [MESSAGE][PASSED] - All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:56:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:56:42 - [MESSAGE][PASSED] - All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:56:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:56:45 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:56:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:47 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:56:47 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:56:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:56:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:56:48 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:56:48 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:56:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:56:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:56:49 - [TEST_STEP][PASSED] - setText: Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:56:50 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:56:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:52 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:56:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:56:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:56:52 - [MESSAGE][PASSED] - All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:56:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:56:55 - [MESSAGE][PASSED] - All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:56:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:56:57 - [MESSAGE][PASSED] - All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:56:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:56:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:56:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p' is clicked on
+
+2017-11-13 15:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p' is clicked on
+
+2017-11-13 15:57:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Product_Name' is clicked on
+
+2017-11-13 15:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Product_Name' is clicked on
+
+2017-11-13 15:57:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-13 15:57:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-13 15:57:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RLS-3596' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p (1)'  using regular expression
+
+2017-11-13 15:57:05 - [MESSAGE][PASSED] - All options with value 'RLS-3596' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p (1)'  using regular expression
+
+2017-11-13 15:57:05 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:57:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:57:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 15:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 15:57:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-13 15:57:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Preview Email" classname="Test Cases/GOLIVE/Preview Email" status="PASSED">
+         <system-out><![CDATA[2017-11-13 15:57:11 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Preview Email: Test Cases/GOLIVE/Preview Email
+
+2017-11-13 15:57:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' is clicked on
+
+2017-11-13 15:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' is clicked on
+
+2017-11-13 15:57:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-13 15:57:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-13 15:57:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Email' is clicked on
+
+2017-11-13 15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Email' is clicked on
+
+2017-11-13 15:57:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-13 15:57:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-13 15:57:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' successfully
+
+2017-11-13 15:57:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' successfully
+
+2017-11-13 15:57:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' is clicked on
+
+2017-11-13 15:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' is clicked on
+
+2017-11-13 15:57:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-13 15:57:27 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-13 15:56:06 - [TEST_SUITE][PASSED] - Verify Technical details: Test Cases/GOLIVE/Preview Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

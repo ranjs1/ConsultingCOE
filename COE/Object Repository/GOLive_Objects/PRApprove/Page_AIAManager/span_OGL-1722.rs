@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OGL-1722</name>
+   <tag></tag>
+   <elementGuidId>c9f3583a-da8d-4ef1-908e-e6efe5280bb9</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/form/div[3]/table/tbody/tr/td/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OGL-1722</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/GOLive_Objects/Page_AIAManager/iframe_PegaGadget1Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

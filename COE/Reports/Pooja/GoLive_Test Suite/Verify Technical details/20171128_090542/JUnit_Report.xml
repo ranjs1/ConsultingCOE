@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="145" tests="3" failures="1" errors="0">
+   <testsuite name="Verify Technical details" tests="3" failures="1" errors="0" time="145" timestamp="2017-11-28 09:05:44" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/GoLive_Test Suite/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\Verify Technical details\\20171128_090542"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\Verify Technical details\\20171128_090542\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="10.150.113.175"/>
+         <property name="sessionId" value="df342747f7305841d36d142a3834fc8c"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="PASSED">
+         <system-out><![CDATA[2017-11-28 09:05:45 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case
+
+2017-11-28 09:05:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-28 09:05:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-28 09:05:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 09:05:51 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 09:05:51 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 09:05:51 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 09:05:51 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-28 09:05:52 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-28 09:05:52 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-28 09:05:57 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-28 09:05:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-28 09:05:59 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-28 09:05:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-28 09:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-28 09:05:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-28 09:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-28 09:06:01 - [TEST_STEP][PASSED] - setText: Text 'OGL-1739' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-28 09:06:02 - [MESSAGE][PASSED] - Text 'OGL-1739' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-28 09:06:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-28 09:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-28 09:06:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-28 09:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-28 09:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-28 09:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-28 09:06:08 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:06:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="PASSED">
+         <system-out><![CDATA[2017-11-28 09:06:09 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details
+
+2017-11-28 09:06:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-28 09:06:12 - [MESSAGE][PASSED] - All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-28 09:06:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-28 09:06:14 - [MESSAGE][PASSED] - All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-28 09:06:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-28 09:06:16 - [MESSAGE][PASSED] - All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-28 09:06:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-28 09:06:19 - [MESSAGE][PASSED] - All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-28 09:06:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-28 09:06:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-28 09:06:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-28 09:06:22 - [MESSAGE][PASSED] - All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-28 09:06:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-28 09:06:25 - [MESSAGE][PASSED] - All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-28 09:06:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-28 09:06:27 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-28 09:06:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:29 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-28 09:06:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-28 09:06:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-28 09:06:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-28 09:06:31 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-28 09:06:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-28 09:06:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-28 09:06:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-28 09:06:32 - [TEST_STEP][PASSED] - setText: Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-28 09:06:33 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-28 09:06:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:35 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-28 09:06:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-28 09:06:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-28 09:06:35 - [MESSAGE][PASSED] - All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-28 09:06:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-28 09:06:38 - [MESSAGE][PASSED] - All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-28 09:06:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-28 09:06:40 - [MESSAGE][PASSED] - All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-28 09:06:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:06:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p' is clicked on
+
+2017-11-28 09:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p' is clicked on
+
+2017-11-28 09:06:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Product_Name' is clicked on
+
+2017-11-28 09:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Product_Name' is clicked on
+
+2017-11-28 09:06:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:06:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 09:06:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RLS-3596' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p (1)'  using regular expression
+
+2017-11-28 09:06:48 - [MESSAGE][PASSED] - All options with value 'RLS-3596' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p (1)'  using regular expression
+
+2017-11-28 09:06:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:06:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:06:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:06:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:06:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Preview Email" classname="Test Cases/GOLIVE/Preview Email" status="PASSED">
+         <system-out><![CDATA[2017-11-28 09:06:54 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Preview Email: Test Cases/GOLIVE/Preview Email
+
+2017-11-28 09:06:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' is clicked on
+
+2017-11-28 09:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' is clicked on
+
+2017-11-28 09:06:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:06:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 09:06:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Email' is clicked on
+
+2017-11-28 09:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Email' is clicked on
+
+2017-11-28 09:07:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:07:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 09:07:05 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' successfully
+
+2017-11-28 09:07:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' successfully
+
+2017-11-28 09:07:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' is clicked on
+
+2017-11-28 09:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/Submit' is clicked on
+
+2017-11-28 09:07:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:07:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/PRApproval" classname="Test Cases/GOLIVE/PRApproval" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})"/>
+         <system-out><![CDATA[2017-11-28 09:07:11 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/PRApproval: Test Cases/GOLIVE/PRApproval FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-28 09:07:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-28 09:07:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-28 09:07:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-28 09:07:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 09:07:16 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 09:07:16 - [TEST_STEP][PASSED] - setText: Text 'fergc@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 09:07:17 - [MESSAGE][PASSED] - Text 'fergc@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 09:07:17 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_Password'
+
+2017-11-28 09:07:17 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_Password'
+
+2017-11-28 09:07:17 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_Password'
+
+2017-11-28 09:07:23 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/PRApprove/Page_Pega 7/input_Password'
+
+2017-11-28 09:07:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-28 09:07:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-28 09:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-28 09:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-28 09:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-28 09:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-28 09:07:25 - [TEST_STEP][PASSED] - setText: Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-28 09:07:26 - [MESSAGE][PASSED] - Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-28 09:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-28 09:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-28 09:07:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/span_OGL-1722' is double clicked on
+
+2017-11-28 09:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/span_OGL-1722' is double clicked on
+
+2017-11-28 09:07:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/a_ApproveStory' is clicked on
+
+2017-11-28 09:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/a_ApproveStory' is clicked on
+
+2017-11-28 09:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/ReviewButton' is clicked on
+
+2017-11-28 09:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/ReviewButton' is clicked on
+
+2017-11-28 09:07:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepIsCloudImpl' is clicked on
+
+2017-11-28 09:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepIsCloudImpl' is clicked on
+
+2017-11-28 09:07:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepCloudUse' is clicked on
+
+2017-11-28 09:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepCloudUse' is clicked on
+
+2017-11-28 09:07:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepTypeOfCloud' is clicked on
+
+2017-11-28 09:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepTypeOfCloud' is clicked on
+
+2017-11-28 09:07:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:40 - [TEST_STEP][PASSED] - setText: Text 'Partner Cloud' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepNameOfCloudP'
+
+2017-11-28 09:07:40 - [MESSAGE][PASSED] - Text 'Partner Cloud' is set on object 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/input_PpyWorkPagepNameOfCloudP'
+
+2017-11-28 09:07:40 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:07:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:07:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 09:07:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:07:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/AddIcon' is clicked on
+
+2017-11-28 09:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/AddIcon' is clicked on
+
+2017-11-28 09:07:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind7' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (4)'  using regular expression
+
+2017-11-28 09:07:48 - [MESSAGE][PASSED] - All options with value 'Ind7' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (4)'  using regular expression
+
+2017-11-28 09:07:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg23' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (5)'  using regular expression
+
+2017-11-28 09:07:50 - [MESSAGE][PASSED] - All options with value 'IndSeg23' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (5)'  using regular expression
+
+2017-11-28 09:07:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 09:07:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 09:07:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Application_Area(2)'  using regular expression
+
+2017-11-28 09:07:53 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/Application_Area(2)'  using regular expression
+
+2017-11-28 09:07:53 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-28 09:07:53 - [TEST_STEP][PASSED] - click: Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2017-11-28 09:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-28 09:07:53 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2017-11-28 09:07:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 09:07:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 09:07:58 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/GOLIVE/Preview Email' (Root cause: Call Test Case 'Test Cases/GOLIVE/Preview Email' failed)
+
+2017-11-28 09:07:58 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Preview Email: Test Cases/GOLIVE/Preview Email FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-28 09:07:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-28 09:08:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-28 09:08:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-28 09:08:09 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/GOLIVE/Preview Email' (Root cause: Call Test Case 'Test Cases/GOLIVE/Preview Email' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-28 09:07:11 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/PRApproval: Test Cases/GOLIVE/PRApproval FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-28 09:05:44 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/PRApproval FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})]]></system-out>
+      <system-err><![CDATA[2017-11-28 09:05:44 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/PRApproval FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/div_Preview Pdf' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.175', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir7440_12710}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: df342747f7305841d36d142a3834fc8c
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})]]></system-err>
+   </testsuite>
+</testsuites>

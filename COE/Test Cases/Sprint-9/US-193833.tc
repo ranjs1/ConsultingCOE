@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Give Bill Clair access to the ECR as a Clinic Meeting administrator. He sholuld have all of the access that Josh has now.  See the screenshot with the flow actions that should be available to him while the case is in Pending Clinic Meeting status.</description>
+   <name>US-193833</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>413184a0-a002-4933-a939-da8fbaa86d29</testCaseGuid>
+   <variable>
+      <defaultValue>'http://vtcpqa2:9685/tcpqa/PRServlet'</defaultValue>
+      <description></description>
+      <id>8079206f-48f8-453b-bacc-3b3a8a2d7df7</id>
+      <masked>false</masked>
+      <name>LoginURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'claiw@pegasystems.com'</defaultValue>
+      <description></description>
+      <id>75da433b-d2a6-451e-a861-928a1eebf393</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'install'</defaultValue>
+      <description></description>
+      <id>6aca6214-98ef-427e-aa51-d81e1bf7c42c</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

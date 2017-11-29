@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User Story,Chrome 61.0.3163.100,,2017-11-06 18:02:03,2017-11-06 18:03:32,1m - 28.346s,FAILED
+,,,,,,
+Test Cases/Sprint-9/US-193833,Chrome 61.0.3163.100,Give Bill Clair access to the ECR as a Clinic Meeting administrator. He sholuld have all of the access that Josh has now.  See the screenshot with the flow actions that should be available to him while the case is in Pending Clinic Meeting status.,2017-11-06 18:02:04,2017-11-06 18:03:31,1m - 27.015s,FAILED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 18:02:04,2017-11-06 18:02:44,40.394s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 18:02:44,2017-11-06 18:02:56,11.894s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 18:02:56,2017-11-06 18:03:31,34.269s,FAILED
+,,,,,,
+Test Cases/Sprint-9/Find Quote WO,Chrome 61.0.3163.100,,2017-11-06 18:03:31,2017-11-06 18:03:31,0.027s,FAILED
+click,Chrome 61.0.3163.100,,2017-11-06 18:03:31,2017-11-06 18:03:31,0.001s,FAILED
+,,,,,,
+Test Cases/Sprint-9/OpenWO,Chrome 61.0.3163.100,Open WO searched in advanced search,2017-11-06 18:03:31,2017-11-06 18:03:31,0.033s,FAILED
+doubleClick,Chrome 61.0.3163.100,,2017-11-06 18:03:31,2017-11-06 18:03:31,0.018s,FAILED

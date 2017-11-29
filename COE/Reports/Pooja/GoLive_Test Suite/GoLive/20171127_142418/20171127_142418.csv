@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GoLive,,,2017-11-27 14:24:19,2017-11-27 14:24:20,0.987s,FAILED
+,,,,,,
+Test Cases/GOLIVE/Enter Announcement Details,,,2017-11-27 14:24:20,2017-11-27 14:24:20,0.711s,FAILED
+openBrowser,,,2017-11-27 14:24:20,2017-11-27 14:24:20,0.285s,FAILED

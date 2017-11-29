@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_LogOffTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-11-06T10:13:52</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>438353a7-4d99-45b1-83a9-cdd84d8b3b23</testSuiteGuid>
+   <testCaseLink>
+      <guid>ae73a6fd-eb36-463e-8262-648e9c3c4b3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint-9/US-193833</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8079206f-48f8-453b-bacc-3b3a8a2d7df7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75da433b-d2a6-451e-a861-928a1eebf393</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6aca6214-98ef-427e-aa51-d81e1bf7c42c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

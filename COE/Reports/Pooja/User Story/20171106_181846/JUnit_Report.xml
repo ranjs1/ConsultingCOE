@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Story" time="143" tests="2" failures="1" errors="0">
+   <testsuite name="User Story" tests="2" failures="1" errors="0" time="143" timestamp="2017-11-06 18:18:47" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/User Story">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\User Story\\20171106_181846"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\User Story\\20171106_181846\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\User Story\\20171106_181846\\1509972669807.png"/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.250.164"/>
+         <property name="sessionId" value="8e5fe3d550a34b200c860c7599ce94a7"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint-9/US-193833" classname="Test Cases/Sprint-9/US-193833" status="PASSED">
+         <system-out><![CDATA[2017-11-06 18:18:47 - [TEST_CASE][PASSED] - Test Cases/Sprint-9/US-193833: Test Cases/Sprint-9/US-193833
+
+2017-11-06 18:18:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ECR/Login_Pooja' successfully
+
+2017-11-06 18:18:48 - [TEST_CASE][PASSED] - Test Cases/ECR/Login_Pooja: Test Cases/ECR/Login_Pooja
+
+2017-11-06 18:18:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-06 18:18:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 18:18:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD?pzPostData=2056462535' successfully
+
+2017-11-06 18:18:53 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD?pzPostData=2056462535' successfully
+
+2017-11-06 18:18:53 - [TEST_STEP][PASSED] - setText: Text 'ellia@pegasystems.com' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_UserIdentifier'
+
+2017-11-06 18:18:53 - [MESSAGE][PASSED] - Text 'ellia@pegasystems.com' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_UserIdentifier'
+
+2017-11-06 18:18:53 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_Password'
+
+2017-11-06 18:18:54 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_Password'
+
+2017-11-06 18:18:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-06 18:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-06 18:19:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-06 18:19:12 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 18:19:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ECR/Login_Pooja' successfully
+
+2017-11-06 18:19:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sprint-9/Find Quote WO' successfully
+
+2017-11-06 18:19:12 - [TEST_CASE][PASSED] - Test Cases/Sprint-9/Find Quote WO: Test Cases/Sprint-9/Find Quote WO
+
+2017-11-06 18:19:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/span_Advanced Search (1)' is clicked on
+
+2017-11-06 18:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/span_Advanced Search (1)' is clicked on
+
+2017-11-06 18:19:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Clinic Request' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchCaseTyp'  using regular expression
+
+2017-11-06 18:19:15 - [MESSAGE][PASSED] - All options with value 'Clinic Request' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchCaseTyp'  using regular expression
+
+2017-11-06 18:19:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Pending-Clinic' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchStatus'  using regular expression
+
+2017-11-06 18:19:17 - [MESSAGE][PASSED] - All options with value 'Pending-Clinic' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchStatus'  using regular expression
+
+2017-11-06 18:19:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/img_inactvIcon icnHvr' is clicked on
+
+2017-11-06 18:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/img_inactvIcon icnHvr' is clicked on
+
+2017-11-06 18:19:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/a_1' is clicked on
+
+2017-11-06 18:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/a_1' is clicked on
+
+2017-11-06 18:19:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/button_Search' is clicked on
+
+2017-11-06 18:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/button_Search' is clicked on
+
+2017-11-06 18:19:17 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/div_ECR-03Nov2017-1 (2)' is double clicked on
+
+2017-11-06 18:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/div_ECR-03Nov2017-1 (2)' is double clicked on
+
+2017-11-06 18:19:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint-9/Find Quote WO' successfully
+
+2017-11-06 18:19:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sprint-9/OpenWO' successfully
+
+2017-11-06 18:19:23 - [TEST_CASE][PASSED] - Test Cases/Sprint-9/OpenWO: Test Cases/Sprint-9/OpenWO
+
+2017-11-06 18:19:24 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/div_ECR-03Nov2017-1 (1)' is double clicked on
+
+2017-11-06 18:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/div_ECR-03Nov2017-1 (1)' is double clicked on
+
+2017-11-06 18:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/a_Hold clinic meeting and prov' is clicked on
+
+2017-11-06 18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/a_Hold clinic meeting and prov' is clicked on
+
+2017-11-06 18:19:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' is clicked on
+
+2017-11-06 18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' is clicked on
+
+2017-11-06 18:19:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Close-Cross' is clicked on
+
+2017-11-06 18:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Close-Cross' is clicked on
+
+2017-11-06 18:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/i_icons avatar name-a' is clicked on
+
+2017-11-06 18:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/i_icons avatar name-a' is clicked on
+
+2017-11-06 18:19:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sprint-9/OpenWO' successfully
+
+2017-11-06 18:19:33 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2017-11-06 18:19:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2017-11-06 18:19:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-06 18:19:49 - [MESSAGE][PASSED] - Browser is closed
+
+2017-11-06 18:19:49 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 18:19:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 18:19:53 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 18:19:54 - [MESSAGE][PASSED] - Text 'claiw@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 18:19:54 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 18:20:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 18:20:14 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 18:20:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-06 18:20:15 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint-9/Find Quote WO" classname="Test Cases/Sprint-9/Find Quote WO" status="PASSED">
+         <system-out><![CDATA[2017-11-06 18:20:15 - [TEST_CASE][PASSED] - Test Cases/Sprint-9/Find Quote WO: Test Cases/Sprint-9/Find Quote WO
+
+2017-11-06 18:20:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/span_Advanced Search (1)' is clicked on
+
+2017-11-06 18:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/span_Advanced Search (1)' is clicked on
+
+2017-11-06 18:20:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Clinic Request' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchCaseTyp'  using regular expression
+
+2017-11-06 18:20:19 - [MESSAGE][PASSED] - All options with value 'Clinic Request' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchCaseTyp'  using regular expression
+
+2017-11-06 18:20:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Pending-Clinic' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchStatus'  using regular expression
+
+2017-11-06 18:20:20 - [MESSAGE][PASSED] - All options with value 'Pending-Clinic' are selected in object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchStatus'  using regular expression
+
+2017-11-06 18:20:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/img_inactvIcon icnHvr' is clicked on
+
+2017-11-06 18:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/img_inactvIcon icnHvr' is clicked on
+
+2017-11-06 18:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/a_1' is clicked on
+
+2017-11-06 18:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/a_1' is clicked on
+
+2017-11-06 18:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/button_Search' is clicked on
+
+2017-11-06 18:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/button_Search' is clicked on
+
+2017-11-06 18:20:21 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/div_ECR-03Nov2017-1 (2)' is double clicked on
+
+2017-11-06 18:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (1)/div_ECR-03Nov2017-1 (2)' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint-9/OpenWO" classname="Test Cases/Sprint-9/OpenWO" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)"/>
+         <system-out><![CDATA[2017-11-06 18:20:27 - [TEST_CASE][FAILED] - Test Cases/Sprint-9/OpenWO: Test Cases/Sprint-9/OpenWO FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-11-06 18:20:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/div_ECR-03Nov2017-1 (1)' is double clicked on
+
+2017-11-06 18:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/div_ECR-03Nov2017-1 (1)' is double clicked on
+
+2017-11-06 18:20:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/a_Hold clinic meeting and prov' is clicked on
+
+2017-11-06 18:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/a_Hold clinic meeting and prov' is clicked on
+
+2017-11-06 18:20:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-11-06 18:21:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\User Story\\20171106_181846\\1509972669807.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-06 18:20:27 - [TEST_CASE][FAILED] - Test Cases/Sprint-9/OpenWO: Test Cases/Sprint-9/OpenWO FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-06 18:18:47 - [TEST_SUITE][FAILED] - User Story: Test Cases/Sprint-9/OpenWO FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-06 18:18:47 - [TEST_SUITE][FAILED] - User Story: Test Cases/Sprint-9/OpenWO FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP) (2)/button_Other actions' located by 'By.xpath: //button[count(. | //*[contains(.,'Other actions ')]) = count(//*[contains(.,'Other actions ')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

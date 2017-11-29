@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_icons fa fa-times-circle-o f</name>
+   <tag></tag>
+   <elementGuidId>c3469ca7-387a-44d1-b763-41b31644f76f</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;HARNESS_CONTENT&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-aia_application_header&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-inline_grid_double_67_33 content-inline_grid_double_67_33&quot;]/div[@class=&quot;content-item content-layout item-2 float-right set-width-auto&quot;]/div[@class=&quot;content-inner set-width-auto&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   set-width-auto layout-content-inline content-inline&quot;]/div[@class=&quot;content-item content-field item-5   topPadding2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[1]/i[@class=&quot;icons fa fa-times-circle-o fa-2x grey-text fa-inverse&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>pd(event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;setUserStart&quot;,[&quot;CANCEL&quot;]],[&quot;doClose&quot;,[&quot;:event&quot;, null, null, false]]]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>Icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> icons fa fa-times-circle-o fa-2x grey-text fa-inverse</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/iframe_PegaGadget3Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

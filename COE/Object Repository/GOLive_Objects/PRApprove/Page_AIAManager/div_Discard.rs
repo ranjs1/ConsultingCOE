@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Discard</name>
+   <tag></tag>
+   <elementGuidId>dfa4f92b-b786-4bec-8349-941faec308be</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modalContent&quot;)/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-modal_button_array&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-default content-default&quot;]/div[@class=&quot;content-item content-layout item-1 float-right set-width-auto&quot;]/div[@class=&quot;content-inner set-width-auto&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   set-width-auto layout-content-inline_middle content-inline_middle&quot;]/div[@class=&quot;content-item content-field item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[1]/button[@class=&quot;Simple pzhc&quot;]/div[@class=&quot;pzbtn-rnd&quot;]/div[@class=&quot;pzbtn-lft&quot;]/div[@class=&quot;pzbtn-rgt&quot;]/div[@class=&quot;pzbtn-mid&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>....</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Discard</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-mid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/GOLive_Objects/PRApprove/Page_AIAManager/iframe_PegaGadget3Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

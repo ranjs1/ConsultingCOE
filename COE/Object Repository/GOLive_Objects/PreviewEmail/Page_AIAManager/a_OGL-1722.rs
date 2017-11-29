@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_OGL-1722</name>
+   <tag></tag>
+   <elementGuidId>08f7ee88-9cf6-432b-ac9f-5164522e8156</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PpgRepPgSubSectionGoLivesBBBBB$ppxResults$l1&quot;)/td[@class=&quot;gridCell    gridCellSelected&quot;]/div[@class=&quot;oflowDivM&quot;]/span[1]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>pd(event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;openAssignment&quot;,[&quot;#~.pzInsKey~#&quot;,&quot;c43d7ac5-f846-4f3e-8d65-c2edcbe233ae&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;#~.pyIsOfflineEnabled~#&quot;]]]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OGL-1722</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/GOLive_Objects/PreviewEmail/Page_AIAManager/iframe_PegaGadget0Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

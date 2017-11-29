@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_LogOffTest" time="14" tests="1" failures="1" errors="0">
+   <testsuite name="Login_LogOffTest" tests="1" failures="1" errors="0" time="14" timestamp="2017-11-06 10:13:54" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Login_LogOffTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Login_LogOffTest\\20171106_101352"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Login_LogOffTest\\20171106_101352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="d66184ee10fa6ded401a6477f21149be"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ECR/Login_Pooja" classname="Test Cases/ECR/Login_Pooja" status="PASSED">
+         <system-out><![CDATA[2017-11-06 10:13:54 - [TEST_CASE][PASSED] - Test Cases/ECR/Login_Pooja: Test Cases/ECR/Login_Pooja
+
+2017-11-06 10:13:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-06 10:13:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 10:13:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD?pzPostData=2056462535' successfully
+
+2017-11-06 10:13:59 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet/beEBp4uRVTogorRwSwWqbOtn9IL2fwdI*/!STANDARD?pzPostData=2056462535' successfully
+
+2017-11-06 10:13:59 - [TEST_STEP][PASSED] - setText: Text 'kersa@pegasystems.com' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_UserIdentifier'
+
+2017-11-06 10:13:59 - [MESSAGE][PASSED] - Text 'kersa@pegasystems.com' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_UserIdentifier'
+
+2017-11-06 10:13:59 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_Password'
+
+2017-11-06 10:13:59 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Methods_Pooja/Page_Pega 7/input_Password'
+
+2017-11-06 10:13:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Methods_Pooja/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-06 10:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Methods_Pooja/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-06 10:14:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-06 10:14:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/LogOff" classname="Test Cases/ECR/LogOff" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-11-06 10:14:08 - [TEST_CASE][FAILED] - Test Cases/ECR/LogOff: Test Cases/ECR/LogOff FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-06 10:14:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-06 10:14:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-06 10:14:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-11-06 10:14:08 - [TEST_CASE][FAILED] - Test Cases/ECR/LogOff: Test Cases/ECR/LogOff FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-06 10:13:54 - [TEST_SUITE][FAILED] - Login_LogOffTest: Test Cases/ECR/LogOff FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2017-11-06 10:13:54 - [TEST_SUITE][FAILED] - Login_LogOffTest: Test Cases/ECR/LogOff FAILED because (of) Unable to click on object 'Object Repository/Methods_Pooja/Page_The Consulting Portal (TCP)/a_Adam Kersivien' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

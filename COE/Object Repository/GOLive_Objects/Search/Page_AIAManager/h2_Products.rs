@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Products</name>
+   <tag></tag>
+   <elementGuidId>b283040b-c957-4a48-a89f-343395cf4874</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-inline_grid_double_67_33 content-inline_grid_double_67_33&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-stacked content-stacked&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@id=&quot;EXPAND-OUTERFRAME&quot;]/div[@id=&quot;EXPAND-PLUSMINUS&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;header-content&quot;]/h2[@class=&quot;header-title&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Products</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/GOLive_Objects/Search/Page_AIAManager/iframe_PegaGadget2Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

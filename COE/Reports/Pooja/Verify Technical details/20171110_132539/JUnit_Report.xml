@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="34" tests="0" failures="2" errors="0">
+   <testsuite name="Verify Technical details" tests="0" failures="2" errors="0" time="34" timestamp="2017-11-10 13:25:41" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171110_132539"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171110_132539\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="3a33ace7a6078f19a2a58b1793c86bfd"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)"/>
+         <system-out><![CDATA[2017-11-10 13:25:41 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)
+
+2017-11-10 13:25:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-10 13:25:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-10 13:25:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-10 13:25:47 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-10 13:25:47 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-10 13:25:47 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-10 13:25:47 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-10 13:25:47 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-10 13:25:47 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-10 13:25:53 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-10 13:25:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-10 13:25:54 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-10 13:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-10 13:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-10 13:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-10 13:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-10 13:25:55 - [TEST_STEP][PASSED] - setText: Text 'OGL-1719' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-10 13:25:56 - [MESSAGE][PASSED] - Text 'OGL-1719' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-10 13:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-10 13:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-10 13:25:57 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-10 13:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-10 13:25:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)
+
+2017-11-10 13:26:14 - [MESSAGE][WARNING] - Switching to default content failed because of: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+
+2017-11-10 13:26:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-10 13:26:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)]]></system-out>
+         <system-err><![CDATA[2017-11-10 13:25:41 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'Ind5' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})"/>
+         <system-out><![CDATA[2017-11-10 13:26:14 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Ind5' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-10 13:26:14 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Ind5' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})
+
+2017-11-10 13:26:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-10 13:26:14 - [MESSAGE][FAILED] - Unable to select option by value 'Ind5' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})]]></system-out>
+         <system-err><![CDATA[2017-11-10 13:26:14 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Ind5' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir14796_6918}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3a33ace7a6078f19a2a58b1793c86bfd
+*** Element info: {Using=xpath, value=//*[@name = 'PegaGadget2Ifr'][count(. | //*[@id = 'PegaGadget2Ifr']) = count(//*[@id = 'PegaGadget2Ifr'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-10 13:25:41 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Business Case FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)]]></system-out>
+      <system-err><![CDATA[2017-11-10 13:25:41 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Business Case FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' (Root cause: java.lang.NullPointerException)]]></system-err>
+   </testsuite>
+</testsuites>

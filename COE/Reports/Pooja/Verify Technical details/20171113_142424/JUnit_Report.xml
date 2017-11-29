@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="64" tests="1" failures="1" errors="0">
+   <testsuite name="Verify Technical details" tests="1" failures="1" errors="0" time="64" timestamp="2017-11-13 14:24:26" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_142424"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_142424\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_142424\\1510563329396.png"/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="677c1ea651d307ba7cdc505683e02174"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="PASSED">
+         <system-out><![CDATA[2017-11-13 14:24:26 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case
+
+2017-11-13 14:24:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-13 14:24:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-13 14:24:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 14:24:31 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 14:24:31 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 14:24:32 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 14:24:32 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 14:24:32 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 14:24:32 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 14:24:38 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 14:24:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-13 14:24:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-13 14:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 14:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 14:24:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 14:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 14:24:41 - [TEST_STEP][PASSED] - setText: Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 14:24:42 - [MESSAGE][PASSED] - Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 14:24:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 14:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 14:24:42 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 14:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 14:24:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 14:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 14:24:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 14:24:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 14:24:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 14:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&amp;action=openWorkByHandle&amp;key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&amp;contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&amp;dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&amp;tabIndex=2&amp;prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&amp;prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&amp;portalThreadName=STANDARD&amp;portalName=AIAManagerPortal&amp;pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&amp;action=openWorkByHandle&amp;key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&amp;contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&amp;dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&amp;tabIndex=2&amp;prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&amp;prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&amp;portalThreadName=STANDARD&amp;portalName=AIAManagerPortal&amp;pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)"/>
+         <system-out><![CDATA[2017-11-13 14:24:48 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)
+
+2017-11-13 14:24:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 14:24:50 - [MESSAGE][PASSED] - All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 14:24:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 14:24:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 14:24:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 14:24:53 - [MESSAGE][PASSED] - All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 14:24:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 14:24:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 14:24:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 14:24:55 - [MESSAGE][PASSED] - All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 14:24:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 14:24:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 14:24:57 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)
+
+2017-11-13 14:25:29 - [MESSAGE][FAILED] - Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)
+[[ATTACHMENT|C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_142424\\1510563329396.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-13 14:24:48 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-13 14:24:26 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-13 14:24:26 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'Total Users' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/iframe_PegaGadget1Ifr' located by 'By.xpath: //iframe[count(. | //*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8']) = count(//*[@src = '/ciaqa/PRServlet/yyvmTAOnyuO4uFgx5ifNtAkEMICLuX6K*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&action=openWorkByHandle&key=PEGASF-WORK-PROGRAM-GOLIVE%20OGL-1719&contentID=339c9b05-5e72-831f-2c4f-0b4e409d281d&dynamicContainerID=ecbb46ea-7810-4466-8455-a44291780118&tabIndex=2&prevContentID=090d4da0-c83b-45a6-a8de-5adfaf948c7f&prevRecordkey=PegaSF-Data-Portal%7CGoLiveHomeScreen%7Cundefined&portalThreadName=STANDARD&portalName=AIAManagerPortal&pzHarnessID=HIDE7F3A36EFA490E108120F3437B809ED8'])][count(. | //*[@name = 'PegaGadget1Ifr']) = count(//*[@name = 'PegaGadget1Ifr'])][count(. | //*[@id = 'PegaGadget1Ifr']) = count(//*[@id = 'PegaGadget1Ifr'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

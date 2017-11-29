@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OGL-1719</name>
+   <tag></tag>
+   <elementGuidId>24e50043-2023-4e09-9344-d8fa02e9d9e7</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PDeclare_pxRecents_pa488278840400271pz$ppxResults$l2&quot;)/td[@class=&quot;gridCell cellHover&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-fat_list_item&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-simple_list content-simple_list&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-mimic_a_sentence content-mimic_a_sentence&quot;]/div[@class=&quot;content-item content-field item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[@class=&quot;supporting_text&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OGL-1719</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>supporting_text</value>
+   </webElementProperties>
+</WebElementEntity>

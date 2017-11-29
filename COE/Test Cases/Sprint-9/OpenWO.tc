@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open WO searched in advanced search</description>
+   <name>OpenWO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdf1b189-eb25-402b-9627-5faef76051b4</testCaseGuid>
+   <variable>
+      <defaultValue>'End other session to Release Lock'</defaultValue>
+      <description></description>
+      <id>558abec1-a521-4ca7-8cb6-58cd453b5550</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

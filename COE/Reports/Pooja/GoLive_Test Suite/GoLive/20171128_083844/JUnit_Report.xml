@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GoLive" time="64" tests="0" failures="1" errors="0">
+   <testsuite name="GoLive" tests="0" failures="1" errors="0" time="64" timestamp="2017-11-28 08:38:47" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/GoLive_Test Suite/GoLive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171128_083844"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171128_083844\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171128_083844\\1511838590069.png"/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="10.150.113.175"/>
+         <property name="sessionId" value="dcac2aca5e7f26d047cdaefc46716241"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Announcement Details" classname="Test Cases/GOLIVE/Enter Announcement Details" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)"/>
+         <system-out><![CDATA[2017-11-28 08:38:47 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Announcement Details: Test Cases/GOLIVE/Enter Announcement Details FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)
+
+2017-11-28 08:38:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-28 08:38:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-28 08:38:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 08:38:53 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-28 08:38:53 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 08:38:53 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_UserIdentifier'
+
+2017-11-28 08:38:53 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_Password'
+
+2017-11-28 08:38:54 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Page_Pega 7/input_Password'
+
+2017-11-28 08:38:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-28 08:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2017-11-28 08:39:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Enter Go Live' is clicked on
+
+2017-11-28 08:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Page_AIAManager/div_Enter Go Live' is clicked on
+
+2017-11-28 08:39:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'IM-1' sent to object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepImplementat'
+
+2017-11-28 08:39:18 - [MESSAGE][PASSED] - Keys 'IM-1' sent to object: 'Object Repository/GOLive_Objects/Page_AIAManager/select_PpyWorkPagepImplementat'
+
+2017-11-28 08:39:18 - [TEST_STEP][PASSED] - setText: Text 'BOFA' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepPacOrgID'
+
+2017-11-28 08:39:18 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/GOLive_Objects/Page_AIAManager/input_PpyWorkPagepPacOrgID'
+
+2017-11-28 08:39:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)
+
+2017-11-28 08:39:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)
+[[ATTACHMENT|C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\GoLive_Test Suite\\GoLive\\20171128_083844\\1511838590069.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-28 08:38:47 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Announcement Details: Test Cases/GOLIVE/Enter Announcement Details FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-28 08:38:47 - [TEST_SUITE][FAILED] - GoLive: Test Cases/GOLIVE/Enter Announcement Details FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-28 08:38:47 - [TEST_SUITE][FAILED] - GoLive: Test Cases/GOLIVE/Enter Announcement Details FAILED because (of) Unable to click on object 'Object Repository/GOLive_Objects/SelectOrg' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GOLive_Objects/SelectOrg' located by 'By.xpath: /html/body/div[2]/form/div[6]/div[1]/ul/li[1]/div[2]/div/table/tbody/tr/td/div/div/div[1]/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[1]/div/div/div/span/span' not found)]]></system-err>
+   </testsuite>
+</testsuites>

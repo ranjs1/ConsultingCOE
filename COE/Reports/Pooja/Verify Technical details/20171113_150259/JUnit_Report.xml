@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Technical details" time="56" tests="1" failures="1" errors="0">
+   <testsuite name="Verify Technical details" tests="1" failures="1" errors="0" time="56" timestamp="2017-11-13 15:03:01" hostname="raycp - L23017WIN.rpega.com" id="Test Suites/Pooja/Verify Technical details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_150259"/>
+         <property name="logFiles" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_150259\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_150259\\1510565637042.png"/>
+         <property name="hostName" value="raycp - L23017WIN.rpega.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.150.113.10"/>
+         <property name="sessionId" value="fa5f646a72c7bcaf412f86b6daba3a60"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GOLIVE/Enter Business Case" classname="Test Cases/GOLIVE/Enter Business Case" status="PASSED">
+         <system-out><![CDATA[2017-11-13 15:03:01 - [TEST_CASE][PASSED] - Test Cases/GOLIVE/Enter Business Case: Test Cases/GOLIVE/Enter Business Case
+
+2017-11-13 15:03:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-13 15:03:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-13 15:03:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:03:07 - [MESSAGE][PASSED] - Navigate to 'https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD' successfully
+
+2017-11-13 15:03:07 - [TEST_STEP][PASSED] - setText: Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:03:07 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_UserIdentifier'
+
+2017-11-13 15:03:07 - [TEST_STEP][PASSED] - setText: Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:03:07 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:03:07 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:03:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/GOLive_Objects/Search/Page_Pega 7/input_Password'
+
+2017-11-13 15:03:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-13 15:03:15 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-13 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_Advanced Search' is clicked on
+
+2017-11-13 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/label_Go Live' is clicked on
+
+2017-11-13 15:03:16 - [TEST_STEP][PASSED] - setText: Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:03:17 - [MESSAGE][PASSED] - Text 'OGL-1722' is set on object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/input_PpyDisplayHarnesspSearch'
+
+2017-11-13 15:03:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Search' is clicked on
+
+2017-11-13 15:03:18 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/span_OGL-1608' is double clicked on
+
+2017-11-13 15:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/Enter Business Case' is clicked on
+
+2017-11-13 15:03:23 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:03:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' successfully
+
+2017-11-13 15:03:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on
+
+2017-11-13 15:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GOLive_Objects/Search/Page_AIAManager/div_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GOLIVE/Enter Technical Details" classname="Test Cases/GOLIVE/Enter Technical Details" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)"/>
+         <system-out><![CDATA[2017-11-13 15:03:24 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)
+
+2017-11-13 15:03:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:03:26 - [MESSAGE][PASSED] - All options with value 'Ind5' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap'  using regular expression
+
+2017-11-13 15:03:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:03:28 - [MESSAGE][PASSED] - All options with value 'IndSeg25' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (1)'  using regular expression
+
+2017-11-13 15:03:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:03:30 - [MESSAGE][PASSED] - All options with value 'IndSol439' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepSolutionMap (2)'  using regular expression
+
+2017-11-13 15:03:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:03:33 - [MESSAGE][PASSED] - All options with value 'Industry Specific' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat'  using regular expression
+
+2017-11-13 15:03:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-13 15:03:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-13 15:03:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:03:36 - [MESSAGE][PASSED] - All options with value 'FS - Cards' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/SolutionMap1'  using regular expression
+
+2017-11-13 15:03:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:03:38 - [MESSAGE][PASSED] - All options with value 'less than 500' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepImplementat (1)'  using regular expression
+
+2017-11-13 15:03:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:03:41 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepChannelsl1p'  using regular expression
+
+2017-11-13 15:03:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:43 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:03:43 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont'
+
+2017-11-13 15:03:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:03:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:03:44 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:03:44 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (1)'
+
+2017-11-13 15:03:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-11-13 15:03:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-11-13 15:03:46 - [TEST_STEP][PASSED] - setText: Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:03:46 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/input_PpyWorkPagepCustomerCont (2)'
+
+2017-11-13 15:03:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:03:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa' successfully
+
+2017-11-13 15:03:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:03:49 - [MESSAGE][PASSED] - All options with value 'Apache Server' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerNa'  using regular expression
+
+2017-11-13 15:03:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:03:51 - [MESSAGE][PASSED] - All options with value 'Mainframe' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepAppServerOS'  using regular expression
+
+2017-11-13 15:03:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:03:53 - [MESSAGE][PASSED] - All options with value 'RMS' are selected in object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepDBServerNam'  using regular expression
+
+2017-11-13 15:03:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-13 15:03:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-13 15:03:55 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)
+
+2017-11-13 15:03:57 - [MESSAGE][FAILED] - Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)
+[[ATTACHMENT|C:\\Users\\raycp\\Desktop\\COE\\Reports\\Pooja\\Verify Technical details\\20171113_150259\\1510565637042.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-13 15:03:24 - [TEST_CASE][FAILED] - Test Cases/GOLIVE/Enter Technical Details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-13 15:03:01 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)]]></system-out>
+      <system-err><![CDATA[2017-11-13 15:03:01 - [TEST_SUITE][FAILED] - Verify Technical details: Test Cases/GOLIVE/Enter Technical Details FAILED because (of) Unable to select option by value 'PRD-409' of object 'Object Repository/GOLive_Objects/Update Technical Details/Page_AIAManager/select_PpyWorkPagepProductsl1p'  using regular expression (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L23017WIN', ip: '10.150.113.10', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\raycp\AppData\Local\Temp\scoped_dir9316_1580}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa5f646a72c7bcaf412f86b6daba3a60)]]></system-err>
+   </testsuite>
+</testsuites>
