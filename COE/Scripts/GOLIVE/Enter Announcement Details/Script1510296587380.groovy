@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//test
+//RAYCP-BRANCH-1 commit to GIT
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://vciaqa.rpega.com:8333/ciaqa/PRServlet/dGKN-A6ThDliXf4sywRqw74EFIEOGY6R*/!STANDARD')
