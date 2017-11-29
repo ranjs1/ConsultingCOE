@@ -22,6 +22,5 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-//test
 WebUI.takeScreenshot()
 
