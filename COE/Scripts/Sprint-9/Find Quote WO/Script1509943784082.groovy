@@ -19,6 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+//ESU   ranjs1 branch -2
+
 WebUI.click(findTestObject('Methods_Pooja/Page_The Consulting Portal (TCP) (1)/span_Advanced Search (1)'))
 
 WebUI.selectOptionByValue(findTestObject('Methods_Pooja/Page_The Consulting Portal (TCP) (1)/select_PpyWorkPagepSrchCaseTyp'), 
